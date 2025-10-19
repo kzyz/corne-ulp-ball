@@ -13,6 +13,9 @@
 
 &trackball_split {
     device = <&trackball>;
+    input-processors = <
+        &zip_xy_scaler 4 4
+    >;
 };
 
 &xiao_i2c {
