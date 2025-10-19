@@ -9,9 +9,7 @@
 &trackball_input_listener_0 {
     status = "okay";
     device = <&trackball>;
-    input-processors = <
-        &zip_xy_to_scroll_mapper
-    >;
+    input-processors = <&zip_xy_to_scroll_mapper>;
 };
 
 &trackball_input_listener_1 {
