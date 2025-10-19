@@ -14,7 +14,7 @@
 &trackball_split {
     device = <&trackball>;
     input-processors = <
-        &zip_xy_scaler 4 4
+        &zip_xy_scaler 16 16
     >;
 };
 
